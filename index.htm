@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClipKart</title>
+    <link rel="shortcut icon" href="favicon.ico/favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.ico/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="favicon.ico/apple-touch-icon.png">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Index.css">
+    <link rel="stylesheet" href="jQueryUI/jquery-ui.min.css">
+    <link rel="stylesheet" href="jQueryUI/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jQueryUI/jquery-ui.theme.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#myColl">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h3 id="navHead"><a id="brand" href="#"><img src="Image/Clipcart.png" height="70" width="100" alt=""> ClipKart</h3></a>
+            </div>
+            <!-- ================ FORM GROUP ====================== -->
+            <div id="myColl" class="collapse navbar-collapse">
+                <div style="background-color:white;margin-top: 20px;max-width: 800px; max-height: 40px;border-radius: 40px;" class="d-inline-flex form-group ml-auto">
+                    <input type="text" class="form-control" style="width: 400px; border: white; border-radius: 40px;">
+                    <button class="btn btn-block" style="width: 40px; height : 38px;"><i class="fas fa-search"></i></button>
+                </div>  
+                <!-- =================== Navigation Bar =============================== -->
+                <div>
+                    <ul class="navbar-nav dropdown mx-5">
+                        <li class="nav-item mx-2"><a class="nav-link active" href="html/LoginClipKart.htm"><i class="fas fa-sign-in-alt"></i> Login </a></li>
+                        <li class="nav-item mx-2"><a class="nav-link" href="html/RegisterClipKart.htm"><i class="fas fa-angle-double-up"></i> Sign Up </a></li>
+                        <li class="nav-item mx-2"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More </a></li>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Advertise</a>
+                            <a class="dropdown-item" href="#">About Us</a>
+                            <a class="dropdown-item" href="#">Career</a>
+                        </div>    
+                        <li class="nav-item mx-2"><a class="nav-link" href="#"><sup><span class="badge badge-light rounded-circle" style="width:13px;">1</span></sup>
+                            <i class="fas fa-shopping-cart"></i> Cart </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid d-inline-flex text-center" id="options">
+        <ul id="service">
+            <li><a class="active" href="#">Mobile</a></li>
+            <li><a href="#">TV & Appliances</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Baby & Kids</a></li>
+            <li><a href="#">Laptop</a></li>
+            <li><a href="#">Sports, Books & More</a></li>
+            <li><a href="#">Flights</a></li>
+            <li><a href="#">Offer Zone</a></li>
+        </ul>
+    </div>
+
+    <!-- ================ CAROUSEL ================= -->
+    
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+          </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href=""><img src="Image/Laptop.jpg" class="carouselImg" alt=""></a>
+                <div class="carousel-caption">
+                    <h3>Lenevo Yoga G3</h3>
+                    <p>All new foldable, easy to carry and lightweight Laptop</p>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <a href=""><img src="Image/mobile.jpg" class="carouselImg" alt=""></a>
+                <div class="carousel-caption">
+                    <h3>Samsung Galaxy S14</h3>
+                    <p>All new Samsung Galaxy S14 with Octa Core Prossecor with 8GB RAM and 128GB Storage Capacity</p>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <a href=""><img src="Image/Kids.jpg" class="carouselImg" alt=""></a>
+                <div class="carousel-caption">
+                    <h3>Toy's For Kids</h3>
+                    <p>New Deals on each and every type of Toy's</p>
+                  </div>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+    </div>
+    <!-- ================ PHONES SECTION ====================== -->
+    <div id="phones" class="container-fluid">
+        <div class="row">
+        <!-- === 1 === -->
+            <div class="col-md-3">
+                <div class="single_place">
+                    <div class="thumb">
+                        <img src="Image/Nokia.jpg" height="200" width="250" alt=""><br>
+                        <a href="html/InsideDevice.htm" class="prise">$4000 <span class="per">(-48%)</span></a>
+                    </div>
+                    <div class="place_info">
+                        <a class="phone_info" href="html/InsideDevice.htm"><h3>Nokia</h3></a>
+                        <p>Nokia first Ever Android Phone with Quad-Core Processor</p>
+                        <div class="rating_days d-flex justify-content-between">
+                            <span class="d-flex justify-content-center align-items-center">
+                                 <i class="fa fa-star"></i> 
+                                 <i class="fa fa-star"></i> 
+                                 <i class="fa fa-star"></i> 
+                                 <i class="fas fa-star-half-alt"></i>
+                                 <i class="far fa-star"></i>
+                                 <a class="otherLink" href="#">(20 Review)</a>
+                            </span>
+                            <div class="days">
+                                <i class="far fa-clock"></i>
+                                <a class="otherLink" href="#">4 Days left</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-md-none">
+        <!-- === End === -->
+            <!-- === 2 === -->
+            <div class="col-md-3">
+                <div class="single_place">
+                    <div class="thumb">
+                        <img src="Image/iphone7.jpeg" height="200" width="250" alt=""><br>
+                        <a href="html/InsideDevice.htm" class="prise">$5000<span class="per"> (-50%)</span></a>
+                    </div>
+                    <div class="place_info">
+                        <a class="phone_info" href="html/InsideDevice.htm"><h3>Apple iPhone 7</h3></a>
+                        <p>Octa-core processor with 8GB RAM and 128GB Internal Storage</p>
+                        <div class="rating_days d-flex justify-content-between">
+                            <span class="d-flex justify-content-center align-items-center">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fas fa-star-half-alt"></i>
+                                <a class="otherLink" href="#">(25 Review)</a>
+                            </span>
+                            <div class="days">
+                                <i class="far fa-clock"></i>
+                                <a class="otherLink" href="#">5 Days left</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-md-none">
+        <!-- === End === -->
+            <!-- === 3 === -->
+            <div class="col-md-3">
+                <div class="single_place">
+                    <div class="thumb">
+                        <img src="Image/Oppo-Reno-2Z.jpg" height="200" width="250" alt=""><br>
+                        <a href="html/InsideDevice.htm" class="prise">$4500 <span class="per">(-20%)</span></a>
+                    </div>
+                    <div class="place_info">
+                        <a class="phone_info" href="html/InsideDevice.htm"><h3>Oppo Reno 2Z</h3></a>
+                        <p>Oppo Reno 2Z with Selife pop-up Camera..</p>
+                        <div class="rating_days d-flex justify-content-between">
+                            <span class="d-flex justify-content-center align-items-center">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <a class="otherLink" href="#">(27 Review)</a>
+                            </span>
+                            <div class="days">
+                                <i class="far fa-clock"></i>
+                                <a class="otherLink" href="#">1 Day left</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-md-none">
+        <!-- === End === -->
+            <!-- === 4 === -->
+            <div class="col-md-3">
+                <div class="single_place">
+                    <div class="thumb">
+                        <img src="Image/Realme3.jpg" height="200" width="250" alt=""><br>
+                        <a href="html/InsideDevice.htm" class="prise">$3300 <span class="per">(-36%)</span></a>
+                    </div>
+                    <div class="place_info">
+                        <a class="phone_info" href="html/InsideDevice.htm"><h3>RealMe 3</h3></a>
+                        <p>Snapdragon-375 8GB RAM 64GB Internal Storage</p>
+                        <div class="rating_days d-flex justify-content-between">
+                            <span class="d-flex justify-content-center align-items-center">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i>
+                                <a class="otherLink" href="#">(29 Review)</a>
+                            </span>
+                            <div class="days">
+                                <i class="far fa-clock"></i>
+                                <a class="otherLink" href="#">5 Days left</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-md-none">
+            <!-- === End === -->
+        </div>
+    </div>
+<hr>
+     <!-- ================ LAPTOP SECTION ====================== -->
+     <div class="container-fluid">
+        <div class="row">
+        <!-- === 1 === -->
+            <div class="col-md-3">
+                <div class="single_place">
+                    <div class="thumb">
+                        <img src="Image/chuwi-herobook.jpg" height="200" width="250" alt=""><br>
+                        <a href="html/InsideDevice.htm" class="prise">$40,000 <span class="per">(-48%)</span></a>
+                    </div>
+                    <div class="place_info">
+                        <a class="phone_info" href="html/InsideDevice.htm"><h3>Chuwi Herobook</h3></a>
+                        <p>All New Herobook by Chuwi Octa-Core Processor</p>
+                        <div class="rating_days d-flex justify-content-between">
+                            <span class="d-flex justify-content-center align-items-center">
+                                 <i class="fa fa-star"></i> 
+                                 <i class="fa fa-star"></i> 
+                                 <i class="fa fa-star"></i> 
+                                 <i class="fas fa-star-half-alt"></i>
+                                 <i class="far fa-star"></i>
+                                 <a class="otherLink" href="#">(20 Review)</a>
+                            </span>
+                            <div class="days">
+                                <i class="far fa-clock"></i>
+                                <a class="otherLink" href="#">4 Days left</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-md-none">
+        <!-- === End === -->
+            <!-- === 2 === -->
+            <div class="col-md-3">
+                <div class="single_place">
+                    <div class="thumb">
+                        <img src="Image/huawei-matebook.jpg" height="200" width="250" alt=""><br>
+                        <a href="html/InsideDevice.htm" class="prise">$51,000<span class="per"> (-50%)</span></a>
+                    </div>
+                    <div class="place_info">
+                        <a class="phone_info" href="html/InsideDevice.htm"><h3>Huawei Matebook</h3></a>
+                        <p>Octa-core processor with 8GB RAM and 128GB Internal Storage</p>
+                        <div class="rating_days d-flex justify-content-between">
+                            <span class="d-flex justify-content-center align-items-center">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fas fa-star-half-alt"></i>
+                                <a class="otherLink" href="#">(25 Review)</a>
+                            </span>
+                            <div class="days">
+                                <i class="far fa-clock"></i>
+                                <a class="otherLink" href="#">5 Days left</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-md-none">
+        <!-- === End === -->
+            <!-- === 3 === -->
+            <div class="col-md-3">
+                <div class="single_place">
+                    <div class="thumb">
+                        <img src="Image/lenevoThinkPad.jpg" height="200" width="250" alt=""><br>
+                        <a href="html/InsideDevice.htm" class="prise">$44,500 <span class="per">(-20%)</span></a>
+                    </div>
+                    <div class="place_info">
+                        <a class="phone_info" href="html/InsideDevice.htm"><h3>Lenevo Think Pad</h3></a>
+                        <p>Oppo Reno 2Z with Selife pop-up Camera..</p>
+                        <div class="rating_days d-flex justify-content-between">
+                            <span class="d-flex justify-content-center align-items-center">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <a class="otherLink" href="#">(27 Review)</a>
+                            </span>
+                            <div class="days">
+                                <i class="far fa-clock"></i>
+                                <a class="otherLink" href="#">1 Day left</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-md-none">
+        <!-- === End === -->
+            <!-- === 4 === -->
+            <div class="col-md-3">
+                <div class="single_place">
+                    <div class="thumb">
+                        <img src="Image/tosh-tecra-x40.jpg" height="200" width="250" alt=""><br>
+                        <a href="html/InsideDevice.htm" class="prise">$3300 <span class="per">(-36%)</span></a>
+                    </div>
+                    <div class="place_info">
+                        <a class="phone_info" href="html/InsideDevice.htm"><h3>Toshiba Tecra X40</h3></a>
+                        <p>Snapdragon-375 8GB RAM 64GB Internal Storage</p>
+                        <div class="rating_days d-flex justify-content-between">
+                            <span class="d-flex justify-content-center align-items-center">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i>
+                                <a class="otherLink" href="#">(29 Review)</a>
+                            </span>
+                            <div class="days">
+                                <i class="far fa-clock"></i>
+                                <a class="otherLink" href="#">5 Days left</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-md-none">
+            <!-- === End === -->
+        </div>
+    </div>
+    <hr>
+    <!-- ================ TOYS SECTION ====================== -->
+    <div class="container-fluid">
+       <div class="row">
+       <!-- === 1 === -->
+           <div class="col-md-3">
+               <div class="single_place">
+                   <div class="thumb">
+                       <img src="Image/Stack.jpg" height="230" width="300" alt=""><br>
+                       <a href="html/InsideDevice.htm" class="prise">$40 <span class="per">(-48%)</span></a>
+                   </div>
+                   <div class="place_info">
+                       <a class="phone_info" href="html/InsideDevice.htm"><h3>Stacking Toy</h3></a>
+                       <p>For Kids above 6-months</p>
+                       <div class="rating_days d-flex justify-content-between">
+                           <span class="d-flex justify-content-center align-items-center">
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <a class="otherLink" href="#">(20 Review)</a>
+                           </span>
+                           <div class="days">
+                               <i class="far fa-clock"></i>
+                               <a class="otherLink" href="#">4 Days left</a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <hr class="d-md-none">
+       <!-- === End === -->
+           <!-- === 2 === -->
+           <div class="col-md-3">
+               <div class="single_place">
+                   <div class="thumb">
+                       <img src="Image/Const.jpeg" height="230" width="300" alt=""><br>
+                       <a href="html/InsideDevice.htm" class="prise">$51<span class="per"> (-50%)</span></a>
+                   </div>
+                   <div class="place_info">
+                       <a class="phone_info" href="html/InsideDevice.htm"><h3>Construction Toys</h3></a>
+                       <p>For Kids Above 8-manths (non-Toxic)</p>
+                       <div class="rating_days d-flex justify-content-between">
+                           <span class="d-flex justify-content-center align-items-center">
+                               <i class="fa fa-star"></i> 
+                               <i class="fa fa-star"></i> 
+                               <i class="fa fa-star"></i> 
+                               <i class="fa fa-star"></i> 
+                               <i class="fas fa-star-half-alt"></i>
+                               <a class="otherLink" href="#">(25 Review)</a>
+                           </span>
+                           <div class="days">
+                               <i class="far fa-clock"></i>
+                               <a class="otherLink" href="#">5 Days left</a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <hr class="d-md-none">
+       <!-- === End === -->
+           <!-- === 3 === -->
+           <div class="col-md-3">
+               <div class="single_place">
+                   <div class="thumb">
+                       <img src="Image/carSofa.jpg" height="230" width="300" alt=""><br>
+                       <a href="html/InsideDevice.htm" class="prise">$44 <span class="per">(-20%)</span></a>
+                   </div>
+                   <div class="place_info">
+                       <a class="phone_info" href="html/InsideDevice.htm"><h3>Car Sofa</h3></a>
+                       <p>For Kids Above 6-months to 1-year</p>
+                       <div class="rating_days d-flex justify-content-between">
+                           <span class="d-flex justify-content-center align-items-center">
+                               <i class="fa fa-star"></i> 
+                               <i class="fa fa-star"></i> 
+                               <i class="fas fa-star-half-alt"></i>
+                               <i class="far fa-star"></i>
+                               <i class="far fa-star"></i>
+                               <a class="otherLink" href="#">(27 Review)</a>
+                           </span>
+                           <div class="days">
+                               <i class="far fa-clock"></i>
+                               <a class="otherLink" href="#">1 Day left</a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <hr class="d-md-none">
+       <!-- === End === -->
+           <!-- === 4 === -->
+           <div class="col-md-3">
+               <div class="single_place">
+                   <div class="thumb">
+                       <img src="Image/potato.png" height="230" width="300" alt=""><br>
+                       <a href="html/InsideDevice.htm" class="prise">$33 <span class="per">(-36%)</span></a>
+                   </div>
+                   <div class="place_info">
+                       <a class="phone_info" href="html/InsideDevice.htm"><h3>Mr. Potato</h3></a>
+                       <p>Toy of character Featured in Toy Story</p>
+                       <div class="rating_days d-flex justify-content-between">
+                           <span class="d-flex justify-content-center align-items-center">
+                               <i class="fa fa-star"></i> 
+                               <i class="fa fa-star"></i> 
+                               <i class="fa fa-star"></i> 
+                               <i class="fa fa-star"></i> 
+                               <i class="fa fa-star"></i>
+                               <a class="otherLink" href="#">(29 Review)</a>
+                           </span>
+                           <div class="days">
+                               <i class="far fa-clock"></i>
+                               <a class="otherLink" href="#">5 Days left</a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <hr class="d-md-none">
+           <!-- === End === -->
+       </div>
+   </div>
+   <hr>
+
+<div id="WWO" class="container">
+    <h6 class="text-black-50">What we <span style="color: #1e8bf0;">Offer</span>?</h6>
+    <p class="text-black-50 small">We offer great Deals on your favourite products. <br>E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.
+
+        What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question.</p>
+</div>
+<!-- =============== FOOTER ================= -->
+<footer id="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <img src="Image/Clipcart.png" height="50" width="100" alt=""> <h3 id="title" class="d-inline-flex">ClipKart</h3>
+        </div>
+        <div class="row">
+            <div id="bullets" class="col-md-2">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">ClipKart Stories</a></li>
+                </ul>
+            </div>
+            <div id="bullets" class="col-md-2">
+                <ul>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellations and Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div id="bullets" class="col-md-2">
+                <ul>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div id="bullets" class="col-md-2">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Discord</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-white">Mail Us</h3>
+                <p class="text-white"> Email : clipkart@gmail.com </p>
+                <p class="text-white"> Address : Flipkart Internet Private Limited,
+                    Buildings Alyssa, Begonia &
+                    Clove Embassy Tech Village,
+                    Outer Ring Road, Devarabeesanahalli Village,
+                    Bengaluru, 560103,
+                    Karnataka, India</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 offset-md-4">
+                <p class="text-white"> &copy; Copyright Reserved by Destructor00</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+</footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="jQueryUI/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="Bootstrap/js/bootstrap.min.js"></script>
+
+</html>

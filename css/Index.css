@@ -1,0 +1,85 @@
+body{
+    background-color: #ffffff;
+}
+nav{
+    background-color: #1e8bf0;
+}
+#brand{
+    text-decoration: none;
+    color: #ffffff;
+}
+#brand:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+#navHead{
+    display: inline;
+     margin-left:0%;
+     color:white;
+     font-family:Arial, Helvetica, sans-serif;
+}
+#service{
+margin-top: 20px;
+}
+#service li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+#service li a{
+    text-decoration: none;
+    color: black;
+}
+#service li a:hover{
+    color : #1e8bf0;
+}
+#options{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px grey;
+}
+.carousel{
+    margin-top: 8px;
+}
+.carouselImg{
+    width: 100%;
+    height: 400px;
+}
+.prise{
+    color: #000000;
+}
+.prise:hover{
+    text-decoration: none;
+    color: black;
+}
+.per{
+    color: orangered;
+}
+.otherLink,.phone_info{
+    color: #000000;
+}
+.otherLink:hover,.phone_info:hover{
+    color: orangered;
+    text-decoration: none;
+}
+#phones{
+    margin-top: 50px;
+}
+#footer{
+    background-color: black;
+}
+#title{
+    color: #1e8bf0;
+}
+#bullets ul{
+    list-style-type: none;
+}
+#bullets ul li a{
+    text-decoration: none;
+    color: white;
+}
+#bullets ul li a:hover{
+    color: yellow;
+}
+#bullets{
+    border-right: 0.5px lightgray solid;
+}

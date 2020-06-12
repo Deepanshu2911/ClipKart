@@ -1,0 +1,59 @@
+body{
+    background-color: #fdff94;
+}
+#loginform{
+    background: #fff;
+    box-shadow:2px 2px 5px grey;
+     height: 700px;
+}
+#title{
+    margin-top: 20px;
+    text-decoration: none;
+}
+#titlea:hover{
+    text-decoration: none;
+    color: #27a8fd;
+}
+#lbl{
+    font-size: larger;
+    font-weight: 700;
+    font-family: lato,Algerian ,cursive;
+    color: #27a8fd;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+#user,#pass,#fname,#lname,#cpass,#email{
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background: transparent;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+.input-border{
+    display:inline-block;
+    width:0px;
+    height: 2px;
+    background: #119efc;
+    position: relative;
+    top:-16px;
+    -webkit-transition: all ease-in-out .15s;
+    -o-transition: all ease-in-out .15s;
+    transition: all ease-in-out .15s;
+  }
+#user:focus,#pass:focus,#user:active,#pass:active,#user:hover,#pass:hover,
+#fname:focus,#lname:focus,#fname:active,#lname:active,#fname:hover,#lname:hover,
+#email:focus,#cpass:focus,#email:active,#cpass:active,#email:hover,#cpass:hover{
+    outline: none;
+    border: none;
+}
+#user:focus+.input-border,#pass:focus+.input-border,#fname:focus+.input-border,#lname:focus+.input-border,#email:focus+.input-border,#cpass:focus+.input-border,
+#user:active+.input-border,#pass:active+.input-border,#fname:active+.input-border,#lname:active+.input-border,#email:active+.input-border,#cpass:active+.input-border,
+#user:hover+.input-border,#pass:hover+.input-border,#fname:hover+.input-border,#lname:hover+.input-border,#email:hover+.input-border,#cpass:hover+.input-border{
+    width: 70%;
+}
+#btn{
+    margin-top: auto;
+    width: 40%;
+}

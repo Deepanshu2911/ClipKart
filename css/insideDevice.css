@@ -1,0 +1,110 @@
+body{
+    background-color: #ffffff;
+}
+nav{
+    background-color: #1e8bf0;
+}
+#brand{
+    text-decoration: none;
+    color: #ffffff;
+}
+#brand:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+#navHead{
+    display: inline;
+     margin-left:0%;
+     color:white;
+     font-family:Arial, Helvetica, sans-serif;
+}
+
+#service{
+margin-top: 20px;
+}
+#service li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+#service li a{
+    text-decoration: none;
+    color: black;
+}
+#service li a:hover{
+    color : #1e8bf0;
+}
+#options{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px grey;
+}
+.carouselImg{
+    width: 100%;
+    margin-top: 20px;
+    height: 450px;
+}
+.btn{
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+}
+
+#top,#share{
+    float: right;
+    color: grey;
+    padding: 10px;
+}
+#share:hover,#top:hover{
+    text-decoration: none;
+    color: #1e8bf0;
+}
+#DeviceTitle{
+    font-weight: 450;
+}
+.rating{
+    border:2px solid green;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 12px;
+    color: white;
+    background-color: green;
+    max-width : 50px;
+}
+.discount{
+    color: #1b8f20;
+    font-weight: 600;
+}
+.tag{
+    color: #04d104;
+}
+#more{
+    font-size: 13px;
+    text-decoration: none;
+}
+#more:hover{
+    color: #1e8bf0;
+    font-size: 13px;
+    text-decoration: none;
+}
+p{
+    margin : 5px;
+}
+#footer{
+    background-color: black;
+}
+#title{
+    color: #1e8bf0;
+}
+#bullets ul{
+    list-style-type: none;
+}
+#bullets ul li a{
+    text-decoration: none;
+    color: white;
+}
+#bullets ul li a:hover{
+    color: yellow;
+}
+#bullets{
+    border-right: 0.5px lightgray solid;
+}

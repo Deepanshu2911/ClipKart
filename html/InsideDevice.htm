@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClipKart</title>
+    <link rel="shortcut icon" href="favicon.ico/favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.ico/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="favicon.ico/apple-touch-icon.png">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/insideDevice.css">
+    <link rel="stylesheet" href="../jQueryUI/jquery-ui.min.css">
+    <link rel="stylesheet" href="../jQueryUI/jquery-ui.structure.css">
+    <link rel="stylesheet" href="../jQueryUI/jquery-ui.theme.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#myColl">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h3 id="navHead"><a id="brand" href="#"><img src="../Image/Clipcart.png" height="70" width="100" alt=""> ClipKart</h3></a>
+            </div>
+            <!-- ================ FORM GROUP ====================== -->
+            <div id="myColl" class="collapse navbar-collapse">
+                <div style="background-color:white;margin-top: 20px;max-width: 800px; max-height: 40px;border-radius: 40px;" class="d-inline-flex form-group ml-auto">
+                    <input type="text" class="form-control" style="width: 400px; border: white; border-radius: 40px;">
+                    <button class="btn btn-block" style="width: 40px; height : 38px;"><i class="fas fa-search"></i></button>
+                </div>  
+                <!-- =================== Navigation Bar =============================== -->
+                <div>
+                    <ul class="navbar-nav dropdown mx-5">
+                        <li class="nav-item mx-2"><a class="nav-link active" href="html/LoginClipKart.htm"><i class="fas fa-sign-in-alt"></i> Login </a></li>
+                        <li class="nav-item mx-2"><a class="nav-link" href="html/RegisterClipKart.htm"><i class="fas fa-angle-double-up"></i> Sign Up </a></li>
+                        <li class="nav-item mx-2"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More </a></li>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Advertise</a>
+                            <a class="dropdown-item" href="#">About Us</a>
+                            <a class="dropdown-item" href="#">Career</a>
+                        </div>    
+                        <li class="nav-item mx-2"><a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid d-inline-flex text-center" id="options">
+        <ul id="service">
+            <li><a class="active" href="#">Mobile</a></li>
+            <li><a href="#">TV & Appliances</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Baby & Kids</a></li>
+            <li><a href="#">Laptop</a></li>
+            <li><a href="#">Sports, Books & More</a></li>
+            <li><a href="#">Flights</a></li>
+            <li><a href="#">Offer Zone</a></li>
+        </ul>
+    </div>
+
+<!-- ================ CAROUSEL ================= -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-5">
+            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                  </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href=""><img src="../Image/iPhone7.jpeg" class="carouselImg" alt=""></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href=""><img src="../Image/iphone7line.jpg" class="carouselImg" alt=""></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href=""><img src="../Image/iphone3.jpg" class="carouselImg" alt=""></a>
+                    </div>
+        
+                </div>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+            </div>
+            <button type="submit" class="btn btn-primary mt-2 ml-4"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+            <button type="submit" class="btn btn-danger mt-2 ml-3"><i class="fas fa-bolt"></i> Buy Now</button>
+        </div>
+        <div class="col-md-7">
+            <div>
+                <a id="share" class="top" href=""><i class="fas fa-share-square"></i> Share</a>
+                <a href="#" id="top">
+                    <input id="Compare" type="checkbox"> <label for="Compare">Compare</label>
+                </a>
+            </div><br><br>
+            <div>
+                <h5 id="DeviceTitle">Apple iPhone 7 (Black, 32GB)</h5>
+                <div class="rating d-inline-flex" class="small p-2">
+                    4.5 <i class="fas fa-star rating"></i>
+                </div>
+                <p class="d-inline-flex pl-2 text-black-50">88,659 Ratings & 8,847 Reviews</p><br>
+                <p class="discount" style="font-size: 15px;">Extra $70 discount</p>
+                <h2 class="d-inline-flex">$4,000</h2><h6 class="d-inline-flex ml-2 text-black-50"><strike>$5200</strike></h6><h5 class="d-inline-flex discount ml-2">4% off</h5>
+                <h6>Available Offers</h6>
+                <p style="font-size: 13px;"><i class="fas fa-tag tag"></i><b> Bank Offer</b> Flat $1 discount on first prepaid transaction using RuPay debit card, minimum order value $20 <a href="">T&C</a></p>
+                <p style="font-size: 13px;"><i class="fas fa-tag tag"></i><b> Bank Offer flat</b> $1 off on RuPay debit card purchase above $300 <a href="">T&C</a></p>
+                <p style="font-size: 13px;"><i class="fas fa-tag tag"></i><b> Bank Offer</b> 5% Unlimited Cashback on Flipkart Axis Bank Credit Card <a href="">T&C</a></p>
+                <p style="font-size: 13px;"><i class="fas fa-tag tag"></i><b> Bank Offer</b> Extra 5% off* with Axis Bank Buzz Credit Card <a href="">T&C</a></p>
+                <a id="more" href=""><b>View 4 more offers</b></a>
+                <p><i class="fab fa-apple fa-2x"></i>&nbsp;&nbsp;&nbsp; Brand 1 Year Warranty</p>
+                <h5 style="margin-top: 30px;"># <u>DESCRIPTION</u> : </h5>
+                <p class="small text-black-50">Take your iPhone experience to the next level with iPhone 7. Featuring new camera systems, a better battery-life, an efficient processor and powerful stereo speakers, this smartphone will drastically enhance your iPhone experience. With a sharp and vibrant display, and a sleek water-resistant body, this phone is as powerful as it is attractive.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+<hr>
+<!-- =============== FOOTER ================= -->
+<footer id="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <img src="../Image/Clipcart.png" height="50" width="100" alt=""> <h3 id="title" class="d-inline-flex">ClipKart</h3>
+        </div>
+        <div class="row">
+            <div id="bullets" class="col-md-2">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">ClipKart Stories</a></li>
+                </ul>
+            </div>
+            <div id="bullets" class="col-md-2">
+                <ul>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellations and Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div id="bullets" class="col-md-2">
+                <ul>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div id="bullets" class="col-md-2">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Discord</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-white">Mail Us</h3>
+                <p class="text-white"> Email : clipkart@gmail.com </p>
+                <p class="text-white"> Address : Flipkart Internet Private Limited,
+                    Buildings Alyssa, Begonia &
+                    Clove Embassy Tech Village,
+                    Outer Ring Road, Devarabeesanahalli Village,
+                    Bengaluru, 560103,
+                    Karnataka, India</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 offset-md-4">
+                <p class="text-white"> &copy; Copyright Reserved by Destructor00</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="../js/jquery.js"></script>
+<script src="../jQueryUI/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="../Bootstrap/js/bootstrap.min.js"></script>
+
+</html>
